@@ -28,16 +28,17 @@ public class Main {
 		}};
 		Stream<Prodotto> booksStream = 
 				prod.stream().filter(
-					(p) -> p.getCategory() == "Books"	
-				).filter(p->p.getPrice()>100);
+					(p) -> p.getCategory() == "Books" && p.getPrice()>100
+					);
 		booksStream.forEach((p)->{
 			System.out.println(p);
 		});
 		
-		
+		// Esercizio 2
 		Stream<Prodotto> babyStream = prod.stream().filter(p->p.getCategory()=="Baby");
 		babyStream.forEach(p-> System.out.println(p));
 		
+		// Esercizio 3
 		Stream<Prodotto> boyStream = prod.stream().filter(p->p.getCategory()=="Boys");
 		boyStream.forEach(p->{
 			p.setPrice(applicaSconto(10, p.getPrice()));

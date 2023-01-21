@@ -1,6 +1,2 @@
-[Titolo: Harry Potter. Autore: J.K. Rowling. Genere: Fantascienza. Anno di pubblicazione: 1997. Numero di pagine: 300. Codice ISBN: 100
-, Titolo: Peter Pan. Autore: Peter. Genere: Fantascienza. Anno di pubblicazione: 1976. Numero di pagine: 350. Codice ISBN: 101
-, Titolo: Signore degli Anelli. Autore: Tolkien. Genere: Fantascienza. Anno di pubblicazione: 1999. Numero di pagine: 400. Codice ISBN: 102
-, Titolo: Focus. Periodicità: MENSILE. Anno di pubblicazione: 2016. Numero di pagine: 40. Codice ISBN: 103
-, Titolo: Playboy. Periodicità: SETTIMANALE. Anno di pubblicazione: 2018. Numero di pagine: 50. Codice ISBN: 104
+[Titolo: cjn. Periodicità: MENSILE. Anno di pubblicazione: 1999. Numero di pagine: 13. Codice ISBN: 101
 ]

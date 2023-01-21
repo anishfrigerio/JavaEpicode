@@ -3,8 +3,6 @@
  */
 package progetto2;
 
-import java.util.List;
-
 /**
  * @author anishfrigerio1999
  *
@@ -13,7 +11,7 @@ public class Magazines extends Catalogue {
 
 	private Enum<Period> period;
 
-	public Magazines(Long isbn, String title, int releaseYear, int numOfPages, Enum<Period> period) {
+	public Magazines(long isbn, String title, int releaseYear, int numOfPages, Enum<Period> period) {
 		super(isbn, title, releaseYear, numOfPages);
 		this.period = period;
 	}

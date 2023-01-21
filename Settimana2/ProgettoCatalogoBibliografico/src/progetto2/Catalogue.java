@@ -7,8 +7,8 @@ package progetto2;
  * @author anishfrigerio1999
  *
  */
-public class Catalogue {
-	private Long isbn;
+abstract public class Catalogue {
+	private long isbn;
 	private String title;
 	private int releaseYear;
 	private int numOfPages;
@@ -21,7 +21,7 @@ public class Catalogue {
 		this.numOfPages = numOfPages;
 	}
 	
-	public Long getISBN() {
+	public long getISBN() {
 		return isbn;
 	}
 

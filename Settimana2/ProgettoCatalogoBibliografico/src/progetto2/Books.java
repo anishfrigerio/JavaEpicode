@@ -3,8 +3,6 @@
  */
 package progetto2;
 
-import java.util.List;
-
 /**
  * @author anishfrigerio1999
  *
@@ -12,7 +10,7 @@ import java.util.List;
 public class Books extends Catalogue {
 	private String author;
 	private String genre;
-	public Books(Long isbn, String title, int releaseYear, int numOfPages, String author, String genre) {
+	public Books(long isbn, String title, int releaseYear, int numOfPages, String author, String genre) {
 		super(isbn, title, releaseYear, numOfPages);
 		// TODO Auto-generated constructor stub
 		this.author = author;

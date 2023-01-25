@@ -13,7 +13,7 @@ abstract public class Catalogue {
 	private int releaseYear;
 	private int numOfPages;
 	
-	public Catalogue(Long isbn, String title, int releaseYear, int numOfPages) {
+	public Catalogue(long isbn, String title, int releaseYear, int numOfPages) {
 		// TODO Auto-generated constructor stub
 		this.isbn = isbn;
 		this.title = title;

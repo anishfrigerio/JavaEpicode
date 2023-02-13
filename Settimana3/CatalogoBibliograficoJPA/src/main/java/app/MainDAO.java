@@ -18,7 +18,7 @@ import entities.Utente;
 
 public class MainDAO {
 
-	private static final String persistenceUnit = "Progetto3";
+	private static final String persistenceUnit = "CatalogoBibliograficoJPA";
 	private static final EntityManagerFactory emf = Persistence.createEntityManagerFactory(persistenceUnit);
 	private static final EntityManager em = emf.createEntityManager();
 	private static final EntityTransaction t = em.getTransaction();

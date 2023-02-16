@@ -25,7 +25,7 @@ public class Giorno1 {
 		boolean v9 = false;
 		
 		int _______x = 10;
-		int $£___$ = 20;
+		int $___$ = 20;
 		//int 10abc;
 		
 		int sumToPrint = 10;
@@ -39,9 +39,9 @@ public class Giorno1 {
 		String lastName = "Rossi";
 		
 		System.out.println( firstName + " " + lastName );
-		System.out.println( "La lunghezza del nome " + firstName + " è: " + firstName.length() );
+		System.out.println( "La lunghezza del nome " + firstName + " ï¿½: " + firstName.length() );
 		System.out.println( firstName.charAt(0) );
-		System.out.println( "questo è un corso python".replace("python", "java") );
+		System.out.println( "questo ï¿½ un corso python".replace("python", "java") );
 		
 	}
 
